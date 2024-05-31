@@ -143,16 +143,8 @@ h2 {
     position: relative;
     z-index: 2;
 }
-.whitespace-big {
-    letter-spacing: 0.9em;
-}
-
-.whitespace-small {
-    letter-spacing: 0.8em;
-}
-
-.b-letter {
-    letter-spacing: 1.1em;
+.cover__description-text {
+    word-spacing: 1.1em;
 }
 
 .bet-button {
