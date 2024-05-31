@@ -280,13 +280,11 @@ h2 {
 
 .about {
     display: grid;
-    grid-template-columns: 334px auto;
+    grid-template-columns: 334px 1fr;
     column-gap: 50px;
     width: 1052px;
-    height: auto;
-    justify-items: center;
+    height: 595px;
     align-items: center;
-    margin-top: 178px;
 }
 .about__logo {
     width: 240px;
@@ -296,7 +294,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 4px -5px -2px 44px;
+    margin: 182px -5px 560px 41px;
 }
 
 .about__logo-image {
@@ -305,7 +303,7 @@ h2 {
 }
 
 .about__column {
-    align-self:center;
+    align-self: center;
     justify-self: center;
 }
 
@@ -314,21 +312,20 @@ h2 {
     font-weight: 700;
     line-height: 46.96px;
     text-transform: uppercase;
-    margin-top: 14px;
-    margin-right: 377px;
+    margin: 45px 0 99px -2px;
 }
 
 .about__text {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
+    margin-left: -2px;
 }
 
 .about__text--first {
     content: "";
     display: block;
     padding-bottom: 24px;
-    padding-top: 9px;
     letter-spacing: 0.01em;
 }
 
@@ -351,7 +348,7 @@ h2 {
  /* ____________________________ */
 
 .footer {
-    padding-top: 181px;
+    padding-top: 328px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: start;
