@@ -174,22 +174,20 @@ h2 {
 
   /* ____________________________ */
 .lots__card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    display: flex;
-    flex-grow: 1;
     gap: 25px;
-    margin-top: 27px;
-    margin-left: 23px;
-}
-  
-.lots__card-list-item {
-    position: relative;
-    width: 334px;
-    height: 563px;
+    margin: 26px 24px 0px 22px;
 }
 
+.card {
+    min-height: 563px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .card_background {
     position: relative;
     width: 100%;
@@ -222,31 +220,33 @@ h2 {
     max-width: 274px;
     max-height: 82px;
     overflow-wrap: normal;
-    position: absolute;
     color: rgba(255, 255, 255);
     padding: 10px;
-    top: 0;
-    margin-top: 41px;
-    margin-left: 31px;
+    margin: 41px 0 0 31px;
     font-size: 22px;
     font-weight: 700;
     line-height: 26.4px;
     text-align: left;
     text-transform: uppercase;
     text-decoration: underline;
+    z-index: 3;
 }
 
 .card__text {
-    position: absolute;
     color: rgba(255, 255, 255);
     padding: 10px;
-    max-width: 274px;
-    bottom: 39px;
+    max-width: 262px;
     margin-left: 31px;
+    padding: 0 0 47px 9px;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    z-index: 3;
+
+}
+.card-link {
+    text-decoration: none;
 }
 
 .lots__look-more-link {
