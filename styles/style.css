@@ -256,14 +256,6 @@ h2 {
     line-height: 24px;
     text-align: left;
 }
-  
-.text_punctuation {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.13em;
-    text-align: left;
-}
 
 .lots__look-more-link {
     display: inline-block;
